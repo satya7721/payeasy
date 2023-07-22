@@ -1,13 +1,46 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Poppins:wght@300&display=swap');
+.headerMain {
+    font-family: 'Poppins', sans-serif !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.headerSub{
+font-family: 'Nunito', sans-serif !important;
+}
+
+.bankNumber{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    letter-spacing: 4px;
+}
+
+.cardBG{
+    border: .1px solid grey;
+}
+
+.balance{
+    font-family: 'Nunito', sans-serif !important;
+    font-weight: 300;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.amount{
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 100;
+    margin-left: 10px;
+    letter-spacing: 2px;
+    font-size: 25px;
+    max-height: 20px;
+}
+
+.MuiListItem-root{
+    padding: 0 !important;
+     
+}
+
+
+/* UI Coloring */
+
+body{
+    background-color: #F5F7FE;
 }
